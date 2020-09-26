@@ -1,0 +1,1 @@
+add_library(GameMakerLib STATIC node.cpp)
