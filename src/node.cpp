@@ -1,6 +1,6 @@
 #include "node.hpp"
-#include <iostream>
+#include <string>
 
-void Node::SayHello(){
-    std::cout << "Hello World!" << std::endl;
+std::string Node::SayHello(){
+    return "Hello World!";
 }
